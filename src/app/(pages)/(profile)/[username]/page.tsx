@@ -4,7 +4,6 @@ import { Links, Pages } from '@/libs/xata'
 import useSWR from 'swr'
 import axios from 'axios'
 import Image from 'next/image'
-import { cache } from 'react'
 import { JetBrains_Mono } from 'next/font/google'
 import cn from 'classnames'
 import LinkItem from '@/components/ui/LinkItem'
@@ -31,11 +30,11 @@ export default function ProfilePage({
 
   const { data, isLoading, error } = useSWR(
     `/api/profile/${username}`,
-    cache(async (path: string) => {
+    async (path: string) => {
       console.log(path)
       const data = (await axios.get<ProfileData>(path)).data
       return data
-    })
+    }
   )
 
   if (isLoading) {
