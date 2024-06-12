@@ -1,6 +1,6 @@
-import { MaxWidthWrapper } from "@/components/MaxWidthWrapper"
+import { MaxWidthWrapper } from '@/components/MaxWidthWrapper'
 
-export default () => {
+export default function Home() {
   return (
     <>
       <header className="w-full bg-white h-16 border-b fixed top-0 left-0 right-0 shadow-md">
