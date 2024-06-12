@@ -1,7 +1,5 @@
 import { getXataClient } from '@/libs/xata'
 import type { Metadata } from 'next'
-import Head from 'next/head'
-import { usePathname } from 'next/navigation'
 
 const xata = getXataClient()
 export async function generateMetadata({
@@ -16,7 +14,7 @@ export async function generateMetadata({
   return {
     title: data?.title,
     description: data?.description,
-    icons: data?.pictureUrl?.url
+    icons: data?.pictureUrl?.url,
   }
 }
 

@@ -7,6 +7,7 @@ import Image from 'next/image'
 import { JetBrains_Mono } from 'next/font/google'
 import cn from 'classnames'
 import LinkItem from '@/components/ui/LinkItem'
+import { useEffect } from 'react'
 
 const jetBrains = JetBrains_Mono({ subsets: ['latin'], weight: '400' })
 
@@ -23,10 +24,12 @@ export default function ProfilePage({
   const path = usePathname()
   const username = decodeURIComponent(params.username).substring(1)
 
-  // if (!path.startsWith('/@')) {
-  //   const newPath = `/@${path.replace(/^\//, '')}`
-  //   return redirect(newPath)
-  // }
+  useEffect(() => {
+    if (!path.startsWith('/@')) {
+      const newPath = `/@${path.replace(/^\//, '')}`
+      return redirect(newPath)
+    }
+  }, [])
 
   const { data, isLoading, error } = useSWR(
     `/api/profile/${username}`,
