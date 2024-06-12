@@ -23,10 +23,10 @@ export default function ProfilePage({
   const path = usePathname()
   const username = decodeURIComponent(params.username).substring(1)
 
-  if (!path.startsWith('/@')) {
-    const newPath = `/@${path.replace(/^\//, '')}`
-    return redirect(newPath)
-  }
+  // if (!path.startsWith('/@')) {
+  //   const newPath = `/@${path.replace(/^\//, '')}`
+  //   return redirect(newPath)
+  // }
 
   const { data, isLoading, error } = useSWR(
     `/api/profile/${username}`,
