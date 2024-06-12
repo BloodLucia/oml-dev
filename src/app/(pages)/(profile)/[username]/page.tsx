@@ -16,7 +16,11 @@ type ProfileData = {
   links: Links[]
 }
 
-export default ({ params }: { params: { username: string } }) => {
+export default function ProfilePage({
+  params,
+}: {
+  params: { username: string }
+}) {
   const path = usePathname()
   const username = decodeURIComponent(params.username).substring(1)
 
