@@ -1,0 +1,11 @@
+{
+  "id": "mig_cpkla6quvrkofmvnon60",
+  "checksum": "1:409eb2e0036afb829ed694d1fd7c64446b418934d7d7d5b36e81398114b314fc",
+  "operations": [
+    {
+      "addTable": {
+        "table": "pages"
+      }
+    }
+  ]
+}

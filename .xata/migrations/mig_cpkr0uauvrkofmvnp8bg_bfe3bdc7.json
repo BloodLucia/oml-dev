@@ -1,0 +1,17 @@
+{
+  "id": "mig_cpkr0uauvrkofmvnp8bg",
+  "parentID": "mig_cpkr0c0tqrr8oggnkt10",
+  "checksum": "1:bfe3bdc7b69c131c613f58778e6b29035ea12608dcc80c2931da1b5bc532681f",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "linkViews",
+          "type": "int",
+          "defaultValue": "0"
+        },
+        "table": "links"
+      }
+    }
+  ]
+}

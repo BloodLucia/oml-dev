@@ -1,0 +1,16 @@
+{
+  "id": "mig_cpkr0c0tqrr8oggnkt10",
+  "parentID": "mig_cpkr072uvrkofmvnp8ag",
+  "checksum": "1:74f74a0da1be0ebf0e58218743f970e5e76b072e7d9fb88798b7ce0b561e4fb3",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "url",
+          "type": "text"
+        },
+        "table": "links"
+      }
+    }
+  ]
+}

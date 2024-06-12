@@ -1,0 +1,16 @@
+{
+  "id": "mig_cpkqveauvrkofmvnp840",
+  "parentID": "mig_cpkqv62uvrkofmvnp810",
+  "checksum": "1:0d01a4f7208c68430a8eab02cf46e8ccac6679f0683488278526134a3fa8adb0",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "iconUrl",
+          "type": "file[]"
+        },
+        "table": "links"
+      }
+    }
+  ]
+}

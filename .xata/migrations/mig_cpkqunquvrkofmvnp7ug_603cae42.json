@@ -1,0 +1,19 @@
+{
+  "id": "mig_cpkqunquvrkofmvnp7ug",
+  "parentID": "mig_cpkquj2uvrkofmvnp7tg",
+  "checksum": "1:603cae429f8a2b73862da528d2cd5efa0a733b823047b8f26a500851c739e9f3",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "icon",
+          "type": "file[]",
+          "file[]": {
+            "defaultPublicAccess": true
+          }
+        },
+        "table": "links"
+      }
+    }
+  ]
+}

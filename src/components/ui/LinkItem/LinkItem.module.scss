@@ -1,0 +1,30 @@
+.link-item-wrap {
+  box-shadow: 4px 4px 0 #222222;
+  transition-property: all;
+  transition-duration: 0.14s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  transition: transform .15s cubic-bezier(.17, .67, .29, 2.71) 0s;
+  margin-top: 16px;
+
+  &:hover {
+    box-shadow: none;
+    transform: translate(0.25rem, 0.25rem);
+  }
+}
+
+.link-item {
+  border: 2px solid #000000;
+  background: #FFFFFF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

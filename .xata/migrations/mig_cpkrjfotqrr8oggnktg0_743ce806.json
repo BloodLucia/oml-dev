@@ -1,0 +1,19 @@
+{
+  "id": "mig_cpkrjfotqrr8oggnktg0",
+  "parentID": "mig_cpkrja190q2lemlh5ldg",
+  "checksum": "1:743ce8065fed231b25367bc27e2ca2b203d25657be031f1ace6798f1e3174224",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "userId",
+          "type": "link",
+          "link": {
+            "table": "users"
+          }
+        },
+        "table": "pages"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mig_cpkrja190q2lemlh5ldg",
+  "parentID": "mig_cpkrj50tqrr8oggnktf0",
+  "checksum": "1:451298baa6005742884d6df2a51ced44542ffbb6d9eef67a4fe78b19e05feef0",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "userId",
+        "table": "pages"
+      }
+    }
+  ]
+}

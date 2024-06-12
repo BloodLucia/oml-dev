@@ -1,0 +1,13 @@
+{
+  "id": "mig_cpkquj2uvrkofmvnp7tg",
+  "parentID": "mig_cpkqt4auvrkofmvnp7mg",
+  "checksum": "1:55307cb6b0e40900e4b5d78cbd79df45d54938ea4dddcf958f07e90a158055b2",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "iconUrl",
+        "table": "links"
+      }
+    }
+  ]
+}

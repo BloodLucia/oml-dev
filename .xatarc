@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://teresalee-v3roq0.us-east-1.xata.sh/db/OhMyLink",
+  "codegen": {
+    "output": "src/libs/xata.ts"
+  }
+}

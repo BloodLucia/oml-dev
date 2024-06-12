@@ -1,0 +1,19 @@
+{
+  "id": "mig_cpl2oj990q2lemlh5r2g",
+  "parentID": "mig_cpl2of8tqrr8oggnl6ig",
+  "checksum": "1:f56af0f7b5817b76127f78929e6034da52a9dc0c16d019a589398b508d9e6600",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "pictureUrl",
+          "type": "file",
+          "file": {
+            "defaultPublicAccess": true
+          }
+        },
+        "table": "pages"
+      }
+    }
+  ]
+}
